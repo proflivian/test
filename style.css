@@ -1,29 +1,25 @@
-p{
-    color: #000000;
-    font-size: 15px;
-    font-family: verdana;
-}
-
-h1{
-    text-align: center;
-    color: #071317;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
-    margin: 0px;
-    background-image: url(e413d1fab2329c6247759eca71a9e948.jpg)
+    background-color: #E5E4F7;
+    display: flex;
 }
 
-.disciplina{
-    color: #ffffff;
-    font-family: tahoma;
-    text-align: center;
-    font-size: 16px;
+header{
+    display: flex;
+    background-color: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    width: 100%;
+    height: 80px;
 }
 
-#turma{
-    font-size: 10px;
-    margin: 0px;
-    background-color: black;
+.logo{
+    width: 83px;
+    height: 60px;
     padding: 10px;
+    display: flex;
 }
+
